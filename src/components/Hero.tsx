@@ -130,21 +130,6 @@ export default function Hero({ onOpenContact }: HeroProps) {
                   <li>DEVELOPMENT</li>
                   <li>GROWTH</li>
                 </ul>
-
-                {/* Bottom Action Row ("WATCH SHOWREEL") */}
-                <div className="mt-2 sm:mt-4 md:mt-5 pt-1.5 sm:pt-3 border-t border-white/20 flex items-center gap-1.5 sm:gap-2.5">
-                  <span className="w-4 h-4 sm:w-6 sm:h-6 rounded-full border border-white/60 group-hover:border-[#e8b76b] group-hover:bg-[#e8b76b] flex items-center justify-center text-white group-hover:text-[#1a0a02] transition-colors shrink-0">
-                    <svg
-                      className="w-1.5 h-1.5 sm:w-2 sm:h-2 fill-current ml-0.5"
-                      viewBox="0 0 12 14"
-                    >
-                      <polygon points="0,0 12,7 0,14" />
-                    </svg>
-                  </span>
-                  <span className="font-mono text-[6px] sm:text-[9.5px] md:text-[10.5px] font-bold uppercase tracking-widest text-white whitespace-nowrap">
-                    Watch Showreel
-                  </span>
-                </div>
               </button>
             </div>
           </div>
